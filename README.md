@@ -196,6 +196,19 @@ This project demonstrates practical cloud infrastructure deployment and server a
 
 ![Website Homepage](screenshots/website-homepage.png)
 
+
+## Challenges Faced
+
+Several challenges were encountered during the deployment process including:
+
+- configuring SSH remote access
+- understanding Linux file permissions
+- configuring DNS records
+- enabling HTTPS functionality
+- troubleshooting Nginx configuration issues
+
+These challenges improved understanding of Linux server administration and cloud infrastructure deployment.
+
 ## References
 
 The following resources and lab guides were used during the development of this project:
