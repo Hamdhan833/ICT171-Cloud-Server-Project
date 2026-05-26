@@ -160,3 +160,32 @@ The objectives of this project were to:
 - document the deployment process using GitHub
 
 This project demonstrates practical cloud infrastructure deployment and server administration skills using Microsoft Azure.
+
+
+## References
+
+The following resources and lab guides were used during the development of this project:
+
+1. Murdoch University Networking Labs – Linux Services  
+https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Server_Environments_and_Architectures/linux_services.md
+
+2. Murdoch University Networking Labs – Linux Permissions  
+https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Reusable_Learning_Objects/linux_permissions.md
+
+3. Murdoch University Networking Labs – Searching File Systems  
+https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Reusable_Learning_Objects/searching_file_systems.md
+
+4. Murdoch University Networking Labs – Create Your Cloud Server  
+https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Server_Environments_and_Architectures/create_your_cloud_server.md
+
+5. Murdoch University Networking Labs – DNS  
+https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Server_Environments_and_Architectures/dns.md
+
+6. Murdoch University Networking Labs – Let's Encrypt SSL Certificates  
+https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Server_Environments_and_Architectures/obtaining_a_digital_certificate_from_lets_encrypt.md
+
+7. Murdoch University Networking Labs – Linux Scripting  
+https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Server_Environments_and_Architectures/scripting_linux_server_functions.md
+
+8. Microsoft Learn – Create a Windows Virtual Machine in Azure  
+https://learn.microsoft.com/en-gb/training/modules/create-windows-virtual-machine-in-azure/
