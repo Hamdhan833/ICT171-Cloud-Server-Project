@@ -162,6 +162,40 @@ The objectives of this project were to:
 This project demonstrates practical cloud infrastructure deployment and server administration skills using Microsoft Azure.
 
 
+## Project Screenshots
+
+### Azure Virtual Machine Dashboard
+
+![Azure VM Dashboard](screenshots/azure-vm-dashboard.png)
+
+### SSH Remote Access
+
+![SSH Terminal](screenshots/ssh-terminal.png)
+
+### Nginx Web Server Status
+
+![Nginx Status](screenshots/nginx-status.png)
+
+### Website File Editing
+
+![Website Editing](screenshots/website-editing.png)
+
+### Linux File Searching
+
+![File Search](screenshots/file-search.png)
+
+### Linux File Permissions
+
+![Linux Permissions](screenshots/linux-permissions.png)
+
+### Ubuntu System Information
+
+![System Information](screenshots/system-information.png)
+
+### Final Website Deployment
+
+![Website Homepage](screenshots/website-homepage.png)
+
 ## References
 
 The following resources and lab guides were used during the development of this project:
