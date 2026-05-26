@@ -89,6 +89,10 @@ SSL/TLS encryption helps protect user connections and improves website security.
 The website can be securely accessed using:
 
 ```text
+https://hamdhan.it.com/
+```
+
+The HTTPS configuration ensures encrypted communication between users and the hosted Azure server.
 
 ## Linux Server Maintenance Script
 
@@ -120,10 +124,6 @@ chmod +x update_server.sh
 ```
 
 This scripting component demonstrates basic Linux server automation and administration skills.
-https://hamdhan.it.com/
-```
-
-The HTTPS configuration ensures encrypted communication between users and the hosted Azure server.
 
 ## Website Overview
 
