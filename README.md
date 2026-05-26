@@ -124,3 +124,39 @@ https://hamdhan.it.com/
 ```
 
 The HTTPS configuration ensures encrypted communication between users and the hosted Azure server.
+
+## Website Overview
+
+This project involved the design and deployment of a personal portfolio website hosted on a Microsoft Azure Virtual Machine using Ubuntu Linux and the Nginx web server.
+
+The website was developed to professionally present:
+
+- personal profile information
+- academic background
+- technical skills
+- cloud computing experience
+
+The website includes structured sections such as:
+
+- Home
+- About Me
+- Skills
+- Contact Information
+
+The student ID is displayed on the homepage to satisfy assignment requirements.
+
+The website was developed using HTML and CSS and deployed manually to the Azure cloud server using Linux command-line administration techniques.
+
+## Project Objectives
+
+The objectives of this project were to:
+
+- deploy a cloud-based Infrastructure as a Service (IaaS) server
+- configure a Linux server environment
+- install and configure the Nginx web server
+- host a publicly accessible website
+- configure DNS and HTTPS
+- develop Linux administration skills
+- document the deployment process using GitHub
+
+This project demonstrates practical cloud infrastructure deployment and server administration skills using Microsoft Azure.
