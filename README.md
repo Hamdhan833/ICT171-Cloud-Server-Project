@@ -66,3 +66,30 @@ The website files were stored inside the `/var/www/html/` directory.
 cd /var/www/html
 sudo nano index.html
 ```
+
+## DNS Configuration
+
+A custom domain name was configured to allow global access to the hosted website.
+
+### Domain Information
+
+- Domain Name: https://hamdhan.it.com/
+- Public IP Address: 20.70.146.143
+
+DNS records were configured to point the domain name to the Azure virtual machine public IP address.
+
+This allowed users to access the website through a web browser using a user-friendly domain name instead of directly using the IP address.
+
+## HTTPS / SSL Configuration
+
+HTTPS was enabled to provide secure communication between the client browser and the web server.
+
+SSL/TLS encryption helps protect user connections and improves website security.
+
+The website can be securely accessed using:
+
+```text
+https://hamdhan.it.com/
+```
+
+The HTTPS configuration ensures encrypted communication between users and the hosted Azure server.
