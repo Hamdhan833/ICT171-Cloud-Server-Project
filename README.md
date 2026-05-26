@@ -209,6 +209,14 @@ Several challenges were encountered during the deployment process including:
 
 These challenges improved understanding of Linux server administration and cloud infrastructure deployment.
 
+
+## Conclusion
+
+This project successfully demonstrated the deployment and configuration of a cloud-hosted Linux web server using Microsoft Azure. The project provided practical experience with Ubuntu Linux, Nginx web hosting, DNS configuration, HTTPS implementation, and Linux server scripting.
+
+The portfolio website was successfully deployed and made publicly accessible through a custom domain name.
+
+
 ## References
 
 The following resources and lab guides were used during the development of this project:
