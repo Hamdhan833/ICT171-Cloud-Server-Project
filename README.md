@@ -89,6 +89,37 @@ SSL/TLS encryption helps protect user connections and improves website security.
 The website can be securely accessed using:
 
 ```text
+
+## Linux Server Maintenance Script
+
+A simple Bash script was created to automate Ubuntu package updates and system maintenance.
+
+### Script Purpose
+
+This script automatically:
+- updates package lists
+- upgrades installed packages
+- helps maintain server security and stability
+
+### Script File
+
+```bash
+#!/bin/bash
+
+sudo apt update
+sudo apt upgrade -y
+```
+
+### Running the Script
+
+The following commands were used to make the script executable and run it:
+
+```bash
+chmod +x update_server.sh
+./update_server.sh
+```
+
+This scripting component demonstrates basic Linux server automation and administration skills.
 https://hamdhan.it.com/
 ```
 
