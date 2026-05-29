@@ -27,6 +27,99 @@ The cloud server for this project was deployed using Microsoft Azure Infrastruct
 - Remote Access Method: SSH
 - Web Server: Nginx
 
+## Server Build Process
+
+The following steps were used to deploy and configure the cloud server.
+
+### Step 1 – Create the Azure Virtual Machine
+
+1. Logged into the Microsoft Azure Portal.
+2. Created a new Ubuntu Linux Virtual Machine named **Hamdhan**.
+3. Assigned a public IP address.
+4. Configured inbound network rules to allow HTTP (Port 80) and HTTPS (Port 443) traffic.
+5. Deployed the virtual machine and verified that it was running.
+
+### Step 2 – Connect to the Server Using SSH
+
+The server was remotely administered using SSH.
+
+```bash
+ssh azureuser@20.70.146.143
+```
+
+SSH access allowed Linux commands to be executed directly on the Azure Virtual Machine.
+
+### Step 3 – Update the Ubuntu Server
+
+The following commands were used to update the operating system packages:
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+This ensured that the server was running the latest available software and security updates.
+
+### Step 4 – Install and Configure Nginx
+
+Nginx was installed using the following command:
+
+```bash
+sudo apt install nginx
+```
+
+The Nginx service was verified using:
+
+```bash
+sudo systemctl status nginx
+```
+
+### Step 5 – Deploy the Website Files
+
+The website files were stored inside the Nginx web root directory:
+
+```bash
+cd /var/www/html
+```
+
+The homepage was edited using:
+
+```bash
+sudo nano index.html
+```
+
+The website was developed using HTML and CSS and manually deployed to the server.
+
+### Step 6 – Configure DNS
+
+A custom domain name was configured to point to the Azure Virtual Machine public IP address:
+
+```text
+Domain: hamdhan.it.com
+Public IP: 20.70.146.143
+```
+
+This allowed users to access the website using a domain name rather than the IP address.
+
+### Step 7 – Enable HTTPS
+
+HTTPS was enabled to provide encrypted communication between users and the web server.
+
+The website can be securely accessed at:
+
+```text
+https://hamdhan.it.com/
+```
+
+### Step 8 – Verify Website Accessibility
+
+The website was tested by:
+
+- Accessing the website through the public domain name.
+- Confirming HTTPS functionality.
+- Verifying Nginx service status.
+- Confirming that the website was publicly accessible from a web browser.
+
 ### SSH Access
 
 The following command was used to remotely connect to the Azure virtual machine:
