@@ -8,6 +8,24 @@
 **Website:** https://hamdhan.it.com/  
 **Public IP Address:** 20.70.146.143  
 
+## Video Demonstration
+
+Video Walkthrough:
+https://drive.google.com/file/d/1nPxaqZTGQqonThnfQP4Y8MUs1Tot5jjM/view?usp=sharing
+
+This video demonstrates:
+
+* Azure Virtual Machine creation and configuration
+* SSH access using a private key (.pem)
+* Ubuntu Linux administration
+* Nginx installation and configuration
+* Website creation using Nano and HTML
+* DNS configuration and domain connection
+* HTTPS and SSL/TLS implementation
+* Bash maintenance script demonstration
+* GitHub project documentation
+
+
 ## Project Overview
 
 This project documents the design and deployment of a personal portfolio website hosted on a Microsoft Azure Virtual Machine using Ubuntu Linux and the Nginx web server. The website presents my academic background, technical skills, and personal profile as a Bachelor of Information Technology student.
